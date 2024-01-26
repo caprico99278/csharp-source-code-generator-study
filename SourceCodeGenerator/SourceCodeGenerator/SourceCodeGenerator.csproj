@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Scriban.Signed" Version="5.9.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\Develop\GitHubProduct\GitHub\SourceCodeGenerator\SourceCodeGenerator\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Develop\GitHubProduct\GitHub\SourceCodeGenerator\SourceCodeGenerator\.editorconfig" />
   </ItemGroup>
 
 </Project>
