@@ -14,9 +14,17 @@ namespace SourceCodeGenerator.WorkerService
         public string GenerateSourceCode()
         {
             // TODO:仮実装
-            var template = Template.Parse("Hello {{name}}!");
-            var result = template.Render(new { Name = "World" });
-            return result;
+            string filePathTxt = @"TemplateFiles\ControllerTemplate.txt";
+            var readToEnd = File.ReadAllText(filePathTxt);
+            if (readToEnd != null)
+            {
+                var template = Template.Parse(readToEnd);
+                var result = template.Render(new { Name = "World！おはよう世界！" });
+                Console.WriteLine(result);
+                return result;
+            }
+
+            return string.Empty;
         }
     }
 }

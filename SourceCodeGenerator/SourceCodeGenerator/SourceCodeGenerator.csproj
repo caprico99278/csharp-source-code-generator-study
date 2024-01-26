@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.8" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.8" />
     <PackageReference Include="Scriban.Signed" Version="5.9.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
@@ -17,6 +19,16 @@
 
   <ItemGroup>
     <None Include="D:\Develop\GitHubProduct\GitHub\SourceCodeGenerator\SourceCodeGenerator\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TemplateFiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TemplateFiles\ControllerTemplate.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
