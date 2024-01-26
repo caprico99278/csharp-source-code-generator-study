@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceCodeGenerator", "SourceCodeGenerator\SourceCodeGenerator.csproj", "{BB9D9D8F-05F0-40EA-B35C-7E1B7308A843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceCodeGenerator", "SourceCodeGenerator\SourceCodeGenerator.csproj", "{BB9D9D8F-05F0-40EA-B35C-7E1B7308A843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceCodeGenaratorTest", "SourceCodeGenaratorTest\SourceCodeGenaratorTest.csproj", "{6350E330-9624-42C1-908A-23ED3910E1A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BB9D9D8F-05F0-40EA-B35C-7E1B7308A843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9D9D8F-05F0-40EA-B35C-7E1B7308A843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9D9D8F-05F0-40EA-B35C-7E1B7308A843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6350E330-9624-42C1-908A-23ED3910E1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6350E330-9624-42C1-908A-23ED3910E1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6350E330-9624-42C1-908A-23ED3910E1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6350E330-9624-42C1-908A-23ED3910E1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
